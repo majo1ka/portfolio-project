@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>About me - Maja Zemanová</title>
 
     <script
       src="https://kit.fontawesome.com/4613d4fc01.js"
@@ -31,19 +31,60 @@
   </head>
 
   <body>
+    <div class="container">
+      <nav class="d-flex justify-content-between">
+        <a href="/" title="Homepage">
+          <img src="images/icon.png" class="logo" alt="Home icon" />
+        </a>
+        <ul>
+          <li>
+            <a href="/" title="Homepage"> Home</a>
+          </li>
+          <li class="active">
+            <a href="/about.html" title="About me"> About</a>
+          </li>
+          <li>
+            <a href="/work.html" title="My work"> Work</a>
+          </li>
+          <li>
+            <a href="/contact.html" title="Contact me"> Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
     <div class="content-container container">
       <div class="row">
         <div class="col-lg-5">
           <div class="content">
-            <h1 class="mb-4">Hi I am Maja Zemanová</h1>
+            <h1 class="mb-4">I am Maja Zemanová</h1>
             <h2 class="mb-4">Frontend Developer, based in Czechia</h2>
-            <a href="" class="btn btn-branding">Check my projects</a>
+            <a href="/work.html" class="btn btn-branding">Check my projects</a>
           </div>
         </div>
         <div class="col-lg-6">
-          <img src="images/maja.jpg" alt="" class="img-fluid rounded" />
+          <img
+            src="images/maja.jpg"
+            alt="Picture of me"
+            class="img-fluid rounded"
+          />
         </div>
       </div>
+      <footer>
+        <div class="d-flex justify-content-center mb-5">
+          <a href="mailto: majka.17p@gmail.com" class="email-link"
+            >majka.17p@gmail.com</a
+          >
+        </div>
+        <div class="social-links d-flex justify-content-center">
+          <a
+            href="https://github.com/majo1ka"
+            target="_
+          "
+          >
+            <i class="fa-brands fa-github"></i>
+          </a>
+        </div>
+      </footer>
     </div>
   </body>
 </html>

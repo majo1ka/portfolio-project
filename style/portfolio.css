@@ -39,7 +39,7 @@ p {
 .hero {
   background: var(--secondary-color);
   text-align: center;
-  padding: 160px 20px;
+  padding: 80px 20px;
 }
 .hero p {
   font-size: 36px;
@@ -74,9 +74,6 @@ p {
     font-size: 44px;
     line-height: 2;
   }
-  .hero {
-    padding: 80px 20px;
-  }
   .project-desc {
     padding: 0;
     text-align: center;
@@ -98,7 +95,7 @@ p {
   font-family: var(--default-font);
 }
 .content-container {
-  padding: 160px 20px;
+  padding: 60px 20px;
 }
 .content {
   margin: 30px;
